@@ -10,3 +10,9 @@
 - 爬取页面标题和简介，爬取页面中的百科链接
 - 根据之前爬取的百科链接继续爬取
 - [爬虫简易框架源码](./baikeSpider/spider_main.py)
+
+## 爬虫练习杂记
+- [爬取腾讯新闻](./practice/tengxunSpider.py)
+- [爬取今日头条](./practice/ajaxSpider.py)
+- [爬取智联招聘](./practice/zhilianSpider.py)
+- [爬取qq空间好友](./practice/qqSpider.py)
