@@ -16,3 +16,6 @@
 - [爬取今日头条](./practice/ajaxSpider.py)
 - [爬取智联招聘](./practice/zhilianSpider.py)
 - [爬取qq空间好友](./practice/qqSpider.py)
+
+## itchat练习
+- [itchat练习](./wechat/ichat.py)

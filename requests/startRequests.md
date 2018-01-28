@@ -1,0 +1,26 @@
+# 学习requests库
+- http协议
+    - hypertext tansfer protocol超文本传输协议
+- import requests
+- r=requests.get(url)
+
+- 带参数的
+    - r=requests.get(url,params={字典})   注意是params
+    - r=requests.post（url,data={字典}）  注意是data
+        - 表单提交，content-type：application/x-www-form-urlencoded
+        - 原本内容格式：name1=value1&name2=value2
+    - r=request.post(url,json={字典})
+        - content-type：application/json
+        - 原本内容格式：{"key1":"value1","key2":"value2"}
+- 返回
+    - r.status_code 状态码
+    - r.reason 状态码解释
+    - r.header
+    - r.url 从哪个url返回的信息
+    - r.request 请求的url
+    - r.hitory 如果有重定向，则会显示重定向历史
+    - r.elapse 请求时间
+    - r.raw 原始读取，类似读文档
+    - r.text 请求返回的内容，转为unicode
+    - r.context 返回内容，二进制
+    - r.json 转为json类型
